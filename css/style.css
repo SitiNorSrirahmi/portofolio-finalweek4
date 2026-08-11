@@ -1,7 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* { margin: 0; padding: 0; box-sizing: border-box;
 }
 
 body {
@@ -69,4 +66,36 @@ body {
 .about-text h1 {
     margin-bottom: 15px;
     color: #2c3e50;
+}
+/* Gallery Section */
+.gallery-section {
+    padding: 60px 20px;
+    background-color: #eef1f4;
+    text-align: center;
+}
+
+.gallery-section h2 {
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.gallery-item h3 {
+    color: #3498db;
+    margin-bottom: 10px;
 }
